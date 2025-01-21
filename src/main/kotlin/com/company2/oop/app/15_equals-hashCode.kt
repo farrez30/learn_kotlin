@@ -9,4 +9,10 @@ fun main() {
     println(company1 == company2)
     println(company1 == company1)
     println(company2 == company2)
+
+    println(company1.hashCode())
+    println(company2.hashCode())
+    println(company1.hashCode() == company2.hashCode())
+    
+
 }
